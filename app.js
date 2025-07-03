@@ -73,3 +73,37 @@ const [
   [bun1, bun2],
   [cookie1, cookie2, cookie3, cookie4, cookie5],
 ] = foodShelf;
+
+
+/* DEFAULT VALUES */
+const ["Sander", "Erik", "Jonas", "Kristoffer" ];
+
+const [
+    personOne = "Elida", 
+    personTwo = "Line", 
+    personThree = "Sofie",
+    personFour = "Hanna"
+] = names;
+const [ personOne, personTwo, personThree, personFour ] = names;
+console.log(personOne, personTwo, personThree, personFour);
+
+
+// Objecter
+
+
+const employees = {
+employeeOne: {
+    "location": "Bergen", 
+}, 
+employeeTwo: {
+    "location": "Oslo", 
+}, 
+employeeThree: {
+    "location": "Ålesund", 
+},
+employeeFour: {
+    "location": "undefined"
+}
+}
+
+
